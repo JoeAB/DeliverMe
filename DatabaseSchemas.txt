@@ -1,0 +1,54 @@
+COrder
+
+Column			Type		Null	Default				Links to					Comments
+order_ID		int(11)		No 	 	 	 
+customer_ID		int(11)		Yes 	NULL 			Customer -> customer_ID 	 
+Restaurant_ID	int(11)		Yes 	NULL 			Restaurant -> Restaurant_ID 	 
+item_list		text		Yes 	NULL 	 	 
+delv_time		timestamp	No 	CURRENT_TIMESTAMP 	 	 
+cost		 decimal(8,2)	Yes 	NULL 	 	 
+street		 varchar(30)	Yes 	NULL 	 	 
+city		 varchar(30)	Yes 	NULL 	 	 
+zip				int(11)		Yes 	NULL 	 	 
+state		varchar(2)		Yes 	NULL 	 	 
+completed		tinyint(1)	No 	 
+
+
+Customer
+
+Column			Type	Null	Default		Comments
+customer_ID		int(11)	No 	 	 
+email		varchar(30)	Yes 	NULL 	 
+first_name	varchar(30)	Yes 	NULL 	 
+last_name	varchar(30)	Yes 	NULL 	 
+password	varchar(20)	Yes 	NULL 	 
+street		varchar(30)	Yes 	NULL 	 
+zip				int(11)	Yes 	NULL 	 
+state		varchar(2)	Yes 	NULL 	 
+
+
+Item
+
+Column			Type			Null	Default			Links to					Comments
+Item_ID			int(11)			No 	 	 	 
+name			varchar(20)		Yes 	NULL 	 	 
+price			decimal(15,2)	Yes 	NULL 	 	 
+description		text			Yes 	NULL 	 	 
+picture			text			Yes 	NULL 	 	 
+mime			text			No 	 	 	 
+Restaurant_ID	int(11)			Yes 	NULL 	Restaurant -> Restaurant_ID 	 
+
+Restaurant
+
+Column			Type			Null	Default	Comments
+Restaurant_ID	int(11)			No 	 	 
+name			varchar(30)		Yes 	NULL 	 
+street			varchar(30)		Yes 	NULL 	 
+zip				int(11)			Yes 	NULL 	 
+state			varchar(2)		Yes 	NULL 	 
+manager_email	varchar(30)		Yes 	NULL 	 
+password		varchar(12)		Yes 	NULL 	 
+logo			text			Yes 	NULL 	 
+phone			varchar(20)		Yes 	NULL 	 
+keyword			varchar(30)		No 	 	 
+mime			text			No 	 	 

@@ -1,0 +1,159 @@
+body{
+	background-color:  white;
+}
+
+.nav{
+	float: left;
+	border: 2px black solid;
+	padding: 8px;
+	background-color:  #cc0000;
+	color:  #FFFFFF;
+	margin-top: 2px;
+
+	
+}
+
+a{
+	color: white;
+}
+a:hover{
+	color:  #e6e6e6;
+}
+.center{
+	margin-right:222px;
+	text-align: center;
+	border: 2px black solid;
+    margin-left: 222px;	
+	background-color: #cc0000;
+	color:  #FFFFFF;
+	margin-top: 2px;
+	
+}
+.center img{
+	float: left;
+	width: 250px;
+	height: 200px;
+	padding-left: 10%;
+
+}
+.center h2{
+        text-decoration: underline;
+	
+}
+
+
+.restInfo h2{
+		text-align: center;
+		padding-right: 10%;
+		text-decoration:underline;
+}
+.restInfo h3{
+	text-align: right;
+	padding-right: 10%;
+	
+}
+.restInfo{
+	border: 2px black solid;
+	background-color: white;
+	color:  #cc0000;
+	margin-right: 15px;
+	padding-right:15px;
+	height:300px;
+}
+.menuBlock{
+	text-align: right;
+	border: 2px black solid;
+	background-color: white;
+	color:  #cc0000;
+	margin-right: 15px;
+	font-size:20px;
+	padding-right:15px;
+
+}
+.menuBlock img{
+	float: left;
+	width: 150px;
+	height: 100px;
+	padding-left: 5px;
+}
+.menuBlock p{
+	text-align: left;
+	padding-left: 30px;
+
+}
+.menuPrice{
+	float: right;
+	width:300px;
+	padding-top:10px;
+}
+.menuPrice input{
+	width:100px;
+}
+.nav li ul li{
+	text-align: right;
+}
+.register{
+	text-align:center;
+
+}
+
+.top{
+	border: 2px black solid;
+	text-align:center;
+	background-color: #cc0000;
+	color:  #FFFFFF;
+
+}
+.nad h2{
+	text-align:left;
+}
+
+.register table{
+	
+	padding-top: 20px;
+	font-size: 16px;
+	font-weight:bold;
+	border-spacing: 25px;
+
+}
+.register td{
+	width: 500px;
+	height: 10px;
+	border-spacing: 75px;
+}
+.register td img{
+	width: 150px;
+	height: 100px;
+}
+
+.search table{
+	
+	font-size: 16px;
+	font-weight:bold;
+    border-spacing: 25px;
+
+}
+
+.search td img{
+	width: 250px;
+	height: 200px;
+
+}
+.Login{
+	float: right;
+	border: 2px black solid;
+	padding: 8px;
+	background-color:  #cc0000;
+	color:  #FFFFFF;
+	width: 200px;
+	margin-top:2px;
+
+}
+
+.Login  dt  dd {
+	text-align: left;
+}
+
+.Login input{
+	width:100%;
+}
